@@ -1,10 +1,9 @@
-<?php include 'config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $site_title; ?></title>
+    <title>Jaspreet Singh | INTP Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,10 +14,10 @@
                 <span class="name">Jaspreet Singh</span>
             </div>
             <div class="nav-links">
-                <a href="index.php" class="nav-link active">Home</a>
-                <a href="about.php" class="nav-link">About</a>
-                <a href="projects.php" class="nav-link">Projects</a>
-                <a href="contact.php" class="nav-link">Contact</a>
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
                 <button id="theme-toggle" class="theme-toggle">🌙</button>
             </div>
         </nav>
@@ -33,8 +32,8 @@
                     <p class="hero-description">Analytical thinker passionate about Linux systems, Python development, and self-hosting solutions</p>
                     
                     <div class="hero-buttons">
-                        <a href="projects.php" class="btn btn-primary">View Projects</a>
-                        <a href="contact.php" class="btn btn-secondary">Get In Touch</a>
+                        <a href="projects.html" class="btn btn-primary">View Projects</a>
+                        <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
                     </div>
                     
                     <div class="social-links">
