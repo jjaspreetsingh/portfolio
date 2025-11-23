@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Jaspreet Singh | INTP Developer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -13,12 +13,17 @@
                 <span class="logo">JS</span>
                 <span class="name">Jaspreet Singh</span>
             </div>
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <div class="nav-links">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="about.html" class="nav-link">About</a>
                 <a href="projects.html" class="nav-link">Projects</a>
                 <a href="contact.html" class="nav-link active">Contact</a>
-                <button id="theme-toggle" class="theme-toggle">🌙</button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
             </div>
         </nav>
     </header>
@@ -47,6 +52,8 @@
             <p>&copy; 2024 Jaspreet Singh. All rights reserved.</p>
         </div>
     </footer>
+
+    <button id="scroll-top" aria-label="Scroll to top">↑</button>
 
     <script src="script.js"></script>
 </body>
